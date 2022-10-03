@@ -1,0 +1,40 @@
+<h1>Dados da conta</h1>
+
+
+<div class="container">
+    <div class="painelPrimario">
+        <h2>{{conta.Nome}}</h1>
+        <div class="container">
+            <div class="btns-account">
+                <div>
+                    <div class="btn-saldo">
+                        <a href="" data-bs-toggle="collapse" data-bs-target="#collapseExample">Saldo</a>
+                    </div>
+                    <div class="collapse-box">
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                R$ {{conta.Saldo}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btns-saq-dep">
+                    <a class="btn-saq" href="/saque/{{conta.ID}}">Sacar</a>
+                    <a class="btn-dep" href="/deposito/{{conta.ID}}">Depositar</a>
+                </div>
+                <div class="btn-exit">
+                    <a href="/">Sair</a>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

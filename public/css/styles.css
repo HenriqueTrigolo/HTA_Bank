@@ -1,0 +1,198 @@
+*{
+    font-family: Helvetica;
+    margin: 0;
+}
+
+body{
+    background-color: #eef6f8;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+/*NAVBAR*/
+#navbar{
+    background-color: #c00;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 0.5em;
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.navLinkRight{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+}
+
+.navLinkLeft{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+}
+
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#navbar li{
+    margin-left: 1em;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-weight: 4000;
+    font-stretch: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+#navbar a:hover{
+    text-decoration:underline;
+}
+
+
+/*FORMS*/
+.form{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-control{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+
+.form-control label{
+    font-weight: bold;
+    margin-bottom: .3em;
+}
+
+.form-control input{
+    width: 80%;
+    padding: 5px;
+    border-width: 0;
+}
+
+/*CONTA*/
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+/* AREA ACESSO */
+
+.painelPrimario{
+    border-top-style:solid;
+    border-width: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: #c00;
+    background-color: #ccc;
+    width: 50%;
+    padding: 15px;
+}
+
+.painelPrimario h1{
+    color: rgb(30, 30, 30);
+    font-size: 40px;
+}
+
+.painelPrimario a{
+    width: 50%;
+    background-color: #c00;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.painelPrimario a:hover{
+    background-color: rgb(153, 0, 0);
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-cadastro{
+    width: 50%;
+    background-color: #c00;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    border-width: 0px;
+}
+
+.btn-cadastro:hover{
+    background-color: rgb(153, 0, 0);
+}
+
+/*404*/
+
+.box-404{
+    margin-top: 200px;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+
+.box-404 h1{
+    font-size: 72px;
+}
+
+.box-404 a{
+    width: 50%;
+    background-color: #c00;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-404 a:hover{
+    background-color: rgb(153, 0, 0);
+    text-decoration: none;
+    color: #fff;
+}
+
+/*botoes conta*/
+
+.btns-account{
+    width: 50%;
+    padding: 10px;
+}
+
+.btn-saldo{
+    display: flex;
+}
+
+.btns-saq-dep,
+.btn-exit{
+    display: flex;
+    justify-content:center;
+}
+
+.btn-saldo a, 
+.btn-exit a{
+    width: 100%;
+}
+
+a.btn-saq{
+    margin-right: 5px;
+}
+
+a.btn-dep{
+    margin-left: 5px;
+}
+
